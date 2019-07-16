@@ -6,7 +6,7 @@
 /*   By: exam <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/12 20:08:19 by exam              #+#    #+#             */
-/*   Updated: 2019/07/16 12:31:54 by alabreui         ###   ########.fr       */
+/*   Updated: 2019/07/16 14:37:27 by alabreui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int		*ft_range(int min, int max)
 	if (min >= max)
 		return (tab);
 	length = max - min;
-	tab = malloc(sizeof(int) * (length) - 1);
+	tab = malloc(sizeof(int) * (length));
 	tab[0] = min;
 	while (i < length)
 	{
